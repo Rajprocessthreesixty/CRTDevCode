@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>TMKCRT_BAU_or_Non_BAU_checkbox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>If unchecked, the request will be treated as Non-BAU.</inlineHelpText>
+        <label>BAU?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TMKCRT_Contact_Body__c</fullName>
+        <description>19.05.26:SG:The name of the external body</description>
+        <label>Contact Body (m)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FCA</fullName>
+                    <default>false</default>
+                    <label>FCA</label>
+                </value>
+                <value>
+                    <fullName>PRA</fullName>
+                    <default>false</default>
+                    <label>PRA</label>
+                </value>
+                <value>
+                    <fullName>Lloyds</fullName>
+                    <default>false</default>
+                    <label>Lloyds</label>
+                </value>
+                <value>
+                    <fullName>LMA</fullName>
+                    <default>false</default>
+                    <label>LMA</label>
+                </value>
+                <value>
+                    <fullName>HM Treasury</fullName>
+                    <default>false</default>
+                    <label>HM Treasury</label>
+                </value>
+                <value>
+                    <fullName>MAS</fullName>
+                    <default>false</default>
+                    <label>MAS</label>
+                </value>
+                <value>
+                    <fullName>Parliament CBI</fullName>
+                    <default>false</default>
+                    <label>Parliament CBI</label>
+                </value>
+                <value>
+                    <fullName>European Regulator</fullName>
+                    <default>false</default>
+                    <label>European Regulator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
